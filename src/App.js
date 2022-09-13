@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Your NFT project goes here</h1>
+      <h1>Daemon Development</h1>
     </div>
   );
 }
