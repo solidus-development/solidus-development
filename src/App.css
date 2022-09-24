@@ -7,3 +7,14 @@
 .nav {
   border-bottom: 2px solid black;
 }
+
+.nav-burger {
+  font-size: 2em;
+}
+
+/* INTRO */
+
+.intro {
+  margin-top: 3.4em;
+  border: 1px solid pink;
+}
