@@ -5,6 +5,7 @@ import Intro from './components/Intro';
 import Projects from './components/Projects';
 import CTA from './components/CTA';
 import About from './components/About';
+import Social from './components/Social';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <CTA />
       <About />
+      <Social />
     </div>
   );
 }

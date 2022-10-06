@@ -152,3 +152,15 @@ button.btn {
   text-align: left;
 }
 
+/* SOCIAL */
+
+.social {
+  background: #2E2E2E;
+  color: white;
+  font-size: 2.5em;
+}
+
+.social-stack {
+  justify-content: space-evenly;
+}
+
