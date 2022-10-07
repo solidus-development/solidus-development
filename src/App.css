@@ -97,11 +97,30 @@ button.btn {
   font-size: 0.8em;
 }
 
-/* PROJECTS */
+/* BURGER MENU */
 
-.projects {
-  
+#burger-menu {
+  background-color: white;
+  transition: transform 0.4s;
+  transform: translateX(-100hw, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100vh;
+  display: block;
+  z-index: 10;
 }
+
+#burger-menu.hide {
+  transform: translate3d(-40vw, 0, 0);
+}
+
+#burger-menu.show {
+  transform: translate3d(-0vw, 0, 0);
+}
+
+/* PROJECTS */
 
 .projects-col {
   margin-bottom: 1.5em;
