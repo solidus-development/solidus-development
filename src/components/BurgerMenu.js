@@ -15,9 +15,10 @@ function BurgerMenu(props) {
             <CloseButton onClick={() => props.setMenu(false)} />
         </div>
         <ul className="burger-menu-list">
-            <li>Home</li>
-            <li>Projects</li>
-            <li>About</li>
+            <li><Link smooth to='#home'>Home</Link></li>
+            <li><Link smooth to='#projects'>Projects</Link></li>
+            <li><Link smooth to='#contact'>Contact</Link></li>
+            <li><Link smooth to='#about'>About</Link></li>
         </ul>
         
       </div>

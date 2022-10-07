@@ -26,6 +26,10 @@ h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 button.btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -109,7 +113,8 @@ button.btn {
   width: 40vw;
   height: 100vh;
   display: block;
-  z-index: 10;
+  z-index: 1031;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 15px;
 }
 
 #burger-menu.hide {
@@ -118,6 +123,31 @@ button.btn {
 
 #burger-menu.show {
   transform: translate3d(-0vw, 0, 0);
+}
+
+.close-button {
+  text-align: right;
+  padding: 1em 1em 0 0;
+}
+
+.burger-menu-list {
+  list-style-type: none;
+  text-align: right;
+  padding-top: 1em;
+  padding-left: 0;
+  padding-right: 1em;
+  
+}
+
+.burger-menu-list li {
+  margin-bottom: 0.8em;
+
+}
+
+.burger-menu-list li a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* PROJECTS */
