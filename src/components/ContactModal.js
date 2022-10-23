@@ -8,8 +8,9 @@ const ContactModal = (props) => {
   return (
     <>
       <Modal show={props.modal} centered>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Contact</Modal.Title>
+          <CloseButton onClick={() => props.setModal(false)}/>
         </Modal.Header>
         <Modal.Body>
           <div className="contact-form">
