@@ -40,6 +40,7 @@ function Value() {
                     </div>
                 </Col>
             </Row>
+            <div id="projects"></div>
         </Container>
       </div>
     );
