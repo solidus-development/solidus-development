@@ -161,6 +161,21 @@ button.btn {
   font-size: 0.8em;
 }
 
+/* VALUE */
+
+.value-card {
+  text-align: center;
+}
+
+.blue {
+  color:#0047FF;
+}
+
+.value-card img {
+  width: 50%;
+  margin-bottom: 1.2em;
+}
+
 /* PROJECTS */
 
 .projects-col {
