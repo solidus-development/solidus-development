@@ -30,7 +30,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title style={{ marginBottom: '20px'}}>Torbomb Design</Card.Title>
                             <Card.Img src={torbomb} style={{ marginBottom: '20px'}}/>
-                            <Card.Text>Sea Weasel is a punk rock, nautical clothing line. This landing page collects users' emails who want to be notified of product releases.</Card.Text>
+                            <Card.Text>Torbomb Designs is expanding possibilities in the world of paintball by creating accessories via 3D printing technology.</Card.Text>
                             <div className='card-buttons'>
                                 <Button variant='dark'>Site</Button>
                                 <Button variant='dark'>Code</Button>
