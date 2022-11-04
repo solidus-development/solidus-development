@@ -25,6 +25,7 @@ function App() {
       <Intro />
       <Value />
       <Projects />
+      <Testimonials />
       <CTA setModal={setModal}/>
       <About setModal={setModal}/>
       <Social />
