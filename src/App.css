@@ -63,6 +63,25 @@ button.btn {
   font-size: 2em;
 }
 
+.nav-menu-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: none;
+}
+
+.nav-menu-list li {
+  display: inline;
+  margin-right: 20px;
+
+}
+
+.nav-menu-list li a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* BURGER MENU */
 
 #burger-menu {
@@ -264,4 +283,18 @@ button.btn {
   text-decoration: none;
   color: white;
 }
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+  .nav-burger {
+    display: none;
+  }
+
+  .nav-menu-list {
+    display: block;
+  }
+}
+
+
 
