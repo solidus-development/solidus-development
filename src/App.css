@@ -135,6 +135,10 @@ button.btn {
   top: 3em;
 }
 
+.intro-content h2 {
+  text-align: left;
+}
+
 .glow {
   color: rgb(0, 255, 247);
   /* -webkit-animation: glow 1s ease-in-out infinite alternate;
