@@ -13,7 +13,8 @@ function Projects() {
         <Container>
             <h2 className='section-header'>Projects</h2>
             <Row>
-                <Col className='projects-col'>
+                <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
                 <Card border='dark' style={{ width: '16rem'}}>
                         <Card.Body>
                             <Card.Title style={{ marginBottom: '20px'}}>Sea Weasel</Card.Title>
@@ -25,8 +26,10 @@ function Projects() {
                             </div>
                         </Card.Body>
                     </Card>
+                    </div>
                 </Col>
-                <Col className='projects-col'>
+                <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
                 <Card border='dark' style={{ width: '16rem' }}>
                         <Card.Body>
                             <Card.Title style={{ marginBottom: '20px'}}>Torbomb Design</Card.Title>
@@ -37,8 +40,10 @@ function Projects() {
                             </div>
                         </Card.Body>
                     </Card>
+                </div>
                 </Col>
-                <Col className='projects-col'>
+                <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
                 <Card border='dark' style={{ width: '16rem'}}>
                         <Card.Body>
                             <Card.Title style={{ marginBottom: '20px', fontSize: '1.2em'}}>The Whitsteen Project</Card.Title>
@@ -50,6 +55,7 @@ function Projects() {
                             </div>
                         </Card.Body>
                     </Card>
+                    </div>
                 </Col>
                 
             </Row>
