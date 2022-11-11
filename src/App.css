@@ -171,6 +171,7 @@ button.btn {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate; */
   text-shadow: 0 0 10px aqua, 0 0 10px aqua, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0, 0 0 10px #004dc0;
+  font-size: 2.2em;
 }
 
 /* @keyframes glow {
@@ -324,7 +325,16 @@ button.btn {
   .modal-header h4 {
     text-align: center;
   }
-  
+
+  .intro-content {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .glow {
+    font-size: 3.5em;
+  }
 }
 
 
