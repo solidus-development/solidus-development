@@ -22,7 +22,7 @@ const ContactModal = (props) => {
                   <input type="hidden" name="_next" value="https://damonpickett.github.io/damonpickett/thankyou.html" />
                   <input type="hidden" name="_subject" value="New enquiry from portfolio site" />
                   <textarea name="message" rows="5" placeholder="How can I help you?"></textarea>
-                  <Button variant='dark' type='button'>Send</Button>
+                  <Button variant='dark' type='submit'>Send</Button>
                   <p>Please feel free to connect with me on <a href='https://www.linkedin.com/in/damon-pickett/' target='_blank' rel='noreferrer'>Linkedin</a></p>
               </form>
           </div>
