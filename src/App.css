@@ -275,6 +275,11 @@ button.btn {
   text-align: left;
 }
 
+.about-content button {
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
 /* SOCIAL */
 
 .social {
@@ -293,6 +298,7 @@ button.btn {
 }
 
 .social-content {
+  margin-top: 1.3em;
   margin-bottom: 2em;
 }
 
