@@ -224,6 +224,11 @@ button.btn {
   margin-bottom: 1.5em;
 }
 
+.card-frame {
+  display: flex;
+  justify-content: center;
+}
+
 .card-title {
   font-family: 'Montserrat', sans-serif;
 }
