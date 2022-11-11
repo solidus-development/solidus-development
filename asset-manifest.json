@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.229811fd.css",
-    "main.js": "/static/js/main.3b239d8b.js",
+    "main.css": "/static/css/main.fbef2e5c.css",
+    "main.js": "/static/js/main.9deeae64.js",
     "static/js/787.85a10bb4.chunk.js": "/static/js/787.85a10bb4.chunk.js",
     "static/media/seaweasel.png": "/static/media/seaweasel.059dbebd28c9409ed732.png",
     "static/media/whitsteen.png": "/static/media/whitsteen.b4a1484b803aa2de9011.png",
@@ -14,12 +14,12 @@
     "static/media/EarthOrbiter.woff": "/static/media/EarthOrbiter.a9c8b7ec2f0e5566e4bd.woff",
     "static/media/EarthOrbiter.woff2": "/static/media/EarthOrbiter.e5b99811a86ee63c197f.woff2",
     "index.html": "/index.html",
-    "main.229811fd.css.map": "/static/css/main.229811fd.css.map",
-    "main.3b239d8b.js.map": "/static/js/main.3b239d8b.js.map",
+    "main.fbef2e5c.css.map": "/static/css/main.fbef2e5c.css.map",
+    "main.9deeae64.js.map": "/static/js/main.9deeae64.js.map",
     "787.85a10bb4.chunk.js.map": "/static/js/787.85a10bb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.229811fd.css",
-    "static/js/main.3b239d8b.js"
+    "static/css/main.fbef2e5c.css",
+    "static/js/main.9deeae64.js"
   ]
 }
