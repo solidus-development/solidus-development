@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cb23c657.css",
-    "main.js": "/static/js/main.6c94ee08.js",
+    "main.js": "/static/js/main.6dcf3bd0.js",
     "static/js/787.85a10bb4.chunk.js": "/static/js/787.85a10bb4.chunk.js",
     "static/media/seaweasel.png": "/static/media/seaweasel.059dbebd28c9409ed732.png",
     "static/media/whitsteen.png": "/static/media/whitsteen.b4a1484b803aa2de9011.png",
@@ -15,11 +15,11 @@
     "static/media/EarthOrbiter.woff2": "/static/media/EarthOrbiter.e5b99811a86ee63c197f.woff2",
     "index.html": "/index.html",
     "main.cb23c657.css.map": "/static/css/main.cb23c657.css.map",
-    "main.6c94ee08.js.map": "/static/js/main.6c94ee08.js.map",
+    "main.6dcf3bd0.js.map": "/static/js/main.6dcf3bd0.js.map",
     "787.85a10bb4.chunk.js.map": "/static/js/787.85a10bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb23c657.css",
-    "static/js/main.6c94ee08.js"
+    "static/js/main.6dcf3bd0.js"
   ]
 }
