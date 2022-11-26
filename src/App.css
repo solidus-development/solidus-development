@@ -230,8 +230,18 @@ button.btn {
   justify-content: center;
 }
 
+.card-body {
+  width: 20rem;
+}
+
 .card-title {
   font-family: 'Montserrat', sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .card-buttons {
@@ -246,7 +256,7 @@ button.btn {
 /* CTA */
 
 .CTA {
-  background: #9B9B9B;
+  background: #9b9b9b;
   text-align: center;
 }
 
