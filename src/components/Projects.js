@@ -6,6 +6,7 @@ import Stack from 'react-bootstrap/Stack';
 import seaweasel from '../images/seaweasel.png';
 import torbomb from '../images/torbombdesign.png';
 import whitsteen from '../images/whitsteen.png';
+import robopunks from '../images/robopunks806x401.jpeg'
 
 function Projects() {
     return (
@@ -55,6 +56,26 @@ function Projects() {
                             </div>
                         </Card.Body>
                     </Card>
+
+                    
+                    </div>
+                </Col>
+
+                <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
+                <Card border='dark' style={{ width: '16rem'}}>
+                        <Card.Body>
+                            <Card.Title style={{ marginBottom: '20px', fontSize: '1.2em'}}>RoboPunks NFT</Card.Title>
+                            <Card.Img src={robopunks} style={{ marginBottom: '20px'}}/>
+                            <Card.Text>My Full Mint Website allows users to connect their Ethereum wallets and mint a RoboPunks NFT token on the Goerli Testnet.</Card.Text>
+                            <div className='card-buttons'>
+                            <a href='https://damonpickett.github.io/whitsteen-project/' target='_blank' rel='noreferrer'><Button variant='dark'>Site</Button></a>
+                            <a href='https://github.com/damonpickett/whitsteen-project' target='_blank' rel='noreferrer'><Button variant='dark'>Code</Button></a>
+                            </div>
+                        </Card.Body>
+                    </Card>
+
+                    
                     </div>
                 </Col>
                 
