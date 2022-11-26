@@ -230,8 +230,18 @@ button.btn {
   justify-content: center;
 }
 
+.card-body {
+  width: 20rem;
+}
+
 .card-title {
   font-family: 'Montserrat', sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .card-buttons {
