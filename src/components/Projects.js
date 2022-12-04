@@ -23,7 +23,7 @@ function Projects() {
                             <Card.Text>Sea Weasel is a punk rock, nautical clothing line. This landing page collects users' emails who want to be notified of product releases.</Card.Text>
                             <div className='card-buttons'>
                                 <a href='https://seaweasel.ca/' target='_blank' rel='noreferrer'><Button variant='dark'>Site</Button></a>
-                                <a href='https://github.com/damonpickett/sea-weasel' target='_blank' rel='noreferrer'><Button variant='dark'>Code</Button></a>
+                                <a href='https://github.com/sea-weasel/sea-weasel.github.io' target='_blank' rel='noreferrer'><Button variant='dark'>Code</Button></a>
                             </div>
                         </Card.Body>
                     </Card>
