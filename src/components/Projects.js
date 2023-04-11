@@ -6,6 +6,8 @@ import torbomb from '../images/torbombdesign.png';
 import whitsteen from '../images/whitsteen.png';
 import robopunks from '../images/robopunks806x401.jpeg'
 import scifi from '../images/scifi-film-poster-club806x401.jpg';
+import stussis from '../images/stussis806x401.jpeg'
+import macta from '../images/macta-github806x401.jpg'
 
 function Projects() {
     return (
@@ -13,6 +15,21 @@ function Projects() {
         <Container>
             <h2 className='section-header'>Projects</h2>
             <Row>
+
+            <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
+                <Card border='dark'>
+                        <Card.Body>
+                            <Card.Title style={{ marginBottom: '20px'}}>Stussis</Card.Title>
+                            <Card.Img src={stussis}/>
+                            <Card.Text>Stussis is an events centre in Qualicum Beach, BC. I was hired to build their website to drive more traffic to their AirBnB page.</Card.Text>
+                            <div className='card-buttons'>
+                            <a href='https://stussis.ca/' target='_blank' rel='noreferrer'><Button variant='dark'>Site</Button></a>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </div>
+                </Col>
 
                 <Col className='projects-col' sm={12} md={6} lg={4}>
                 <div className="card-frame">
@@ -39,6 +56,21 @@ function Projects() {
                             <Card.Text>Torbomb Designs is expanding possibilities in the world of paintball by creating accessories via 3D printing technology.</Card.Text>
                             <div className='card-buttons'>
                             <a href='https://torbombdesigns.bigcartel.com/' target='_blank' rel='noreferrer'><Button variant='dark'>Site</Button></a>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </div>
+                </Col>
+
+                <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
+                <Card border='dark'>
+                        <Card.Body>
+                            <Card.Title style={{ marginBottom: '20px'}}>MacTA</Card.Title>
+                            <Card.Img src={macta}/>
+                            <Card.Text>MacTA is a command-line application that utilizes the OpenAI API to generate instructions for performing tasks in the MacOS terminal.</Card.Text>
+                            <div className='card-buttons'>
+                            <a href='https://github.com/damonpickett/macta' target='_blank' rel='noreferrer'><Button variant='dark'>Code</Button></a>
                             </div>
                         </Card.Body>
                     </Card>
