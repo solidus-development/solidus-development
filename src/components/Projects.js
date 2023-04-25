@@ -8,6 +8,7 @@ import robopunks from '../images/robopunks806x401.jpeg'
 import scifi from '../images/scifi-film-poster-club806x401.jpg';
 import stussis from '../images/stussis806x401.jpeg'
 import macta from '../images/macta-github806x401.jpg'
+import buge from '../images/buge806x401.jpg';
 
 function Projects() {
     return (
@@ -56,6 +57,21 @@ function Projects() {
                             <Card.Text>Torbomb Designs is expanding possibilities in the world of paintball by creating accessories via 3D printing technology.</Card.Text>
                             <div className='card-buttons'>
                             <a href='https://torbombdesigns.bigcartel.com/' target='_blank' rel='noreferrer'><Button variant='dark'>Site</Button></a>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </div>
+                </Col>
+
+                <Col className='projects-col' sm={12} md={6} lg={4}>
+                <div className="card-frame">
+                <Card border='dark'>
+                        <Card.Body>
+                            <Card.Title style={{ marginBottom: '20px'}}>buge</Card.Title>
+                            <Card.Img src={buge}/>
+                            <Card.Text>buge is a command-line application that uses the OpenAI API to generate solutions to error codes.</Card.Text>
+                            <div className='card-buttons'>
+                            <a href='https://github.com/damonpickett/buge' target='_blank' rel='noreferrer'><Button variant='dark'>Code</Button></a>
                             </div>
                         </Card.Body>
                     </Card>
