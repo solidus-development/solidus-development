@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.47c844e4.css",
-    "main.js": "/static/js/main.7143cb77.js",
+    "main.js": "/static/js/main.32be8d7b.js",
     "static/js/787.85a10bb4.chunk.js": "/static/js/787.85a10bb4.chunk.js",
     "static/media/seaweasel.png": "/static/media/seaweasel.059dbebd28c9409ed732.png",
     "static/media/whitsteen.png": "/static/media/whitsteen.b4a1484b803aa2de9011.png",
     "static/media/robopunks806x401.jpeg": "/static/media/robopunks806x401.9d6bd1352bf9b592f9eb.jpeg",
+    "static/media/buge806x401.jpg": "/static/media/buge806x401.67a3d72ee655a6e8b425.jpg",
     "static/media/scifi-film-poster-club806x401.jpg": "/static/media/scifi-film-poster-club806x401.9bdc4996554e5fd36b26.jpg",
     "static/media/stussis806x401.jpeg": "/static/media/stussis806x401.c5400509fcc0251dcd07.jpeg",
     "static/media/torbombdesign.png": "/static/media/torbombdesign.eac5fccdeb952f59989d.png",
@@ -19,11 +20,11 @@
     "static/media/EarthOrbiter.woff2": "/static/media/EarthOrbiter.e5b99811a86ee63c197f.woff2",
     "index.html": "/index.html",
     "main.47c844e4.css.map": "/static/css/main.47c844e4.css.map",
-    "main.7143cb77.js.map": "/static/js/main.7143cb77.js.map",
+    "main.32be8d7b.js.map": "/static/js/main.32be8d7b.js.map",
     "787.85a10bb4.chunk.js.map": "/static/js/787.85a10bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47c844e4.css",
-    "static/js/main.7143cb77.js"
+    "static/js/main.32be8d7b.js"
   ]
 }
